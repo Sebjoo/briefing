@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="MGT">
+    <Package name="briefing">
+        <Container name="rules">
+            <Key ID="STR_mgt_serverrules">
+                <Original>Server Rules</Original>
+                <English>Server Rules</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_traders">
+                <Original>Trader</Original>
+                <English>Trader</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_traders_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• No vehicle ramming or intentional vehicle destruction within god mode traders&lt;br/&gt;
+• Do not abuse trader to escape death, injury, or combat&lt;br/&gt;
+• All vehicles left in trader will unlock after a server restart&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• No vehicle ramming or intentional vehicle destruction within god mode traders&lt;br/&gt;
+• Do not abuse trader to escape death, injury, or combat&lt;br/&gt;
+• All vehicles left in trader will unlock after a server restart&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_building">
+                <Original>Building</Original>
+                <English>Building</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_building_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• Players are only permitted to be the owner of one (1) flag per map on our Exile servers and a max of two (2) flags per group. This includes if you have multiple steam accounts. Your other bases on alt accounts will be deleted. Is not permitted to ask someone who doesnt normally play or has left the server to place a flag for you and leave the server for more than 30 days. These bases will be deleted automatically&lt;br/&gt;
+• No building in indestructible buildings&lt;br/&gt;
+• No building any storage items to protect your flag&lt;br/&gt;
+• No building on any road or runway&lt;br/&gt;
+• No building within 500m of traders with godmode and 1000m with line of sight. Bandit traders (bandit/conair/conland) no building between 500m and 700m with line of sight&lt;br/&gt;
+• Any flag placed not within the rules above may be removed&lt;br/&gt;
+• No building in/on or within 200m of the following buildings: Barracks, Hospitals, Forestations, Supermarket, Military or industrial&lt;br/&gt;
+• No placing flags through map textures, rocks, trees, walls, other base parts or storage or placing constructions into flag&lt;br/&gt;
+• No placing storage items, safes, crates, in map textures In such a way that more than 50% Or more of the item is hidden&lt;br/&gt;
+• Storage placed in such a way that violate these rules will be moved, deleted or have pin code changed&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• Players are only permitted to be the owner of one (1) flag per map on our Exile servers and a max of two (2) flags per group. This includes if you have multiple steam accounts. Your other bases on alt accounts will be deleted. Is not permitted to ask someone who doesnt normally play or has left the server to place a flag for you and leave the server for more than 30 days. These bases will be deleted automatically&lt;br/&gt;
+• No building in indestructible buildings&lt;br/&gt;
+• No building any storage items to protect your flag&lt;br/&gt;
+• No building on any road or runway&lt;br/&gt;
+• No building within 500m of traders with godmode and 1000m with line of sight. Bandit traders (bandit/conair/conland) no building between 500m and 700m with line of sight&lt;br/&gt;
+• Any flag placed not within the rules above may be removed&lt;br/&gt;
+• No building in/on or within 200m of the following buildings: Barracks, Hospitals, Forestations, Supermarket, Military or industrial&lt;br/&gt;
+• No placing flags through map textures, rocks, trees, walls, other base parts or storage or placing constructions into flag&lt;br/&gt;
+• No placing storage items, safes, crates, in map textures In such a way that more than 50% Or more of the item is hidden&lt;br/&gt;
+• Storage placed in such a way that violate these rules will be moved, deleted or have pin code changed&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_gameplay">
+                <Original>Game Play</Original>
+                <English>Game Play</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_gameplay_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• No hacking&lt;br/&gt;
+• No exploiting bugs&lt;br/&gt;
+• No Using Vehicles to dupe intentionally&lt;br/&gt;
+• No Un-Teaming To respect farm group members&lt;br/&gt;
+• No Extorting players for protection, such as threatening other players to pay poptabs to not raid their base&lt;br/&gt;
+• No Stream sniping streamers that may be on the server or meta gaming to gain intel in other ways that couldn’t be found out through normal game play&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• No hacking&lt;br/&gt;
+• No exploiting bugs&lt;br/&gt;
+• No Using Vehicles to dupe intentionally&lt;br/&gt;
+• No Un-Teaming To respect farm group members&lt;br/&gt;
+• No Extorting players for protection, such as threatening other players to pay poptabs to not raid their base&lt;br/&gt;
+• No Stream sniping streamers that may be on the server or meta gaming to gain intel in other ways that couldn’t be found out through normal game play&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_glitch">
+                <Original>Glitching</Original>
+                <English>Glitching</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_glitch_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• Any form of base glitching will be treated accordingly and may result in a ban. If accidental, raise a ticket to have you moved. If no Admin is available, you are to suicide yourself immediately&lt;br/&gt;
+• Placing objects in a manner knowing it will cause a person to glitch will be handled on a case-by-case situation. Players who fall victim to this should take the necessary action stated above as accidental&lt;br/&gt;
+• If a base has certain areas that are meant to capture/trap a player, you are allowed to blow your self out with only the items on your person. You are not allowed to glitch or use an exploitation to help your self out&lt;br/&gt;
+• If you glitch into your own base to kill someone who is raiding, be this by means of passing through an object with your body, gun, or other devices that normally would not pass through, it will be treated as glitching&lt;br/&gt;
+• Glitching more then once into the same base will be considered intentional&lt;br/&gt;
+• You are not allowed to strip your gear beforehand to gain access through other means that is not within normal game play&lt;br/&gt;
+• If you “accidently” glitch into a base, you are not allowed to then kill, steal, destroy, grind, pack, or move any item&lt;br/&gt;
+• You are not allowed to press, vault through, crawl, clip, or jump in any way that could cause you to be moved through a base part that is not through normal game play&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• Any form of base glitching will be treated accordingly and may result in a ban. If accidental, raise a ticket to have you moved. If no Admin is available, you are to suicide yourself immediately&lt;br/&gt;
+• Placing objects in a manner knowing it will cause a person to glitch will be handled on a case-by-case situation. Players who fall victim to this should take the necessary action stated above as accidental&lt;br/&gt;
+• If a base has certain areas that are meant to capture/trap a player, you are allowed to blow your self out with only the items on your person. You are not allowed to glitch or use an exploitation to help your self out&lt;br/&gt;
+• If you glitch into your own base to kill someone who is raiding, be this by means of passing through an object with your body, gun, or other devices that normally would not pass through, it will be treated as glitching&lt;br/&gt;
+• Glitching more then once into the same base will be considered intentional&lt;br/&gt;
+• You are not allowed to strip your gear beforehand to gain access through other means that is not within normal game play&lt;br/&gt;
+• If you “accidently” glitch into a base, you are not allowed to then kill, steal, destroy, grind, pack, or move any item&lt;br/&gt;
+• You are not allowed to press, vault through, crawl, clip, or jump in any way that could cause you to be moved through a base part that is not through normal game play&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_vehicle">
+                <Original>Vehicles</Original>
+                <English>Vehicles</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_vehicle_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• You are not allowed to use a vehicle to clip, glitch, or any other action to gain an advantage into a base that is not through normal game play&lt;br/&gt;
+• You are not allowed to use a vehicle to clip, glitch or any other action to cause an explosion&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• You are not allowed to use a vehicle to clip, glitch, or any other action to gain an advantage into a base that is not through normal game play&lt;br/&gt;
+• You are not allowed to use a vehicle to clip, glitch or any other action to cause an explosion&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_baseraid">
+                <Original>Base Raiding</Original>
+                <English>Base Raiding</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_baseraid_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• We allow base raiding on our servers. This is a part of normal Exile game play&lt;br/&gt;
+• Although it is not required, it is strongly recommended that all base raids are recorded in its entirety without editing, cutting or clipping. This is to ensure that any accusation that is made can be proven through video, if suspicion of possible base glitching and can not be refuted, action may be taken on the raider&lt;br/&gt;
+• A full raid constitutes the action of raiding a base and stealing the flag. If this is done to a point that an Admin finds it to be excessive, the player, or group may be asked to withdraw from raiding for a period of time deemed by the Admins before raiding again&lt;br/&gt;
+• Harassing raids will be considered raids that involve the destruction of a few walls, hacks, grinding of a players, or groups base but without removing the flag, If The Admins deem these raids to be excessive, the player, or group may be asked to withdraw from raiding for a period of time deemed by the Admins before raiding again&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• We allow base raiding on our servers. This is a part of normal Exile game play&lt;br/&gt;
+• Although it is not required, it is strongly recommended that all base raids are recorded in its entirety without editing, cutting or clipping. This is to ensure that any accusation that is made can be proven through video, if suspicion of possible base glitching and can not be refuted, action may be taken on the raider&lt;br/&gt;
+• A full raid constitutes the action of raiding a base and stealing the flag. If this is done to a point that an Admin finds it to be excessive, the player, or group may be asked to withdraw from raiding for a period of time deemed by the Admins before raiding again&lt;br/&gt;
+• Harassing raids will be considered raids that involve the destruction of a few walls, hacks, grinding of a players, or groups base but without removing the flag, If The Admins deem these raids to be excessive, the player, or group may be asked to withdraw from raiding for a period of time deemed by the Admins before raiding again&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_conduct">
+                <Original>In Game Conduct</Original>
+                <English>In Game Conduct</English>
+            </Key>
+            <Key ID="STR_mgt_serverrules_conduct_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• Players whose playstyle is outside of normal Exile gameplay are advised that the server is for all players to play, not just them and you may be asked to stop such playstyle&lt;br/&gt;
+• Although swearing is allowed, racist words, real life threats, hate speech, including anti-semitism, xenophobia, homophobia, transphobia, or anything that is deemed by Admins as overly abusive will result in punishment. This includes offensive user names&lt;br/&gt;
+• Players are forbidden from impersonating staff&lt;br/&gt;
+• Players imitating other players in a manner that is deemed more then just fun trolling will be requested to stop or face punishment&lt;br/&gt;
+• Players will refrain from accusing, implying, or suggesting staff give preferential treatment, bias, favoritism, special, or otherwise better treatment to specific individuals or group, clans, parties. (This is strictly against the rules, and such accusations will be dealt with&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+• Players whose playstyle is outside of normal Exile gameplay are advised that the server is for all players to play, not just them and you may be asked to stop such playstyle&lt;br/&gt;
+• Although swearing is allowed, racist words, real life threats, hate speech, including anti-semitism, xenophobia, homophobia, transphobia, or anything that is deemed by Admins as overly abusive will result in punishment. This includes offensive user names&lt;br/&gt;
+• Players are forbidden from impersonating staff&lt;br/&gt;
+• Players imitating other players in a manner that is deemed more then just fun trolling will be requested to stop or face punishment&lt;br/&gt;
+• Players will refrain from accusing, implying, or suggesting staff give preferential treatment, bias, favoritism, special, or otherwise better treatment to specific individuals or group, clans, parties. (This is strictly against the rules, and such accusations will be dealt with&lt;/font&gt;</English>
+            </Key>
+        </Container>
+        <Container name="general">
+            <Key ID="STR_mgt_generalinfo">
+                <Original>General Informations</Original>
+                <English>General Informations</English>
+            </Key>
+            <Key ID="STR_mgt_generalinfo_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+General Information:&lt;br/&gt;&lt;br/&gt;
+1 • Families and groups can have a maximum of 2 bases 1. For support jump on our Discord and create a ticket&lt;br/&gt;
+2 • Your loadout improves as your respect gets higher, type !kits on our Discord for a list&lt;br/&gt;
+3 • If you have a rope you can rappel off buildings or tow vehicles with your vehicle&lt;br/&gt;
+4 • The blackmarket traders sell high end weapons and equipment not available in regular traders&lt;br/&gt;
+5 • Scroll on a corpse to bury it&lt;br/&gt;
+6 • You earn 2000 respect x killstreak for each kill in the bonus PvP zone, if you bury the corpse, check the body for dogtags, these can be sold for 1000 pop tabs&lt;br/&gt;
+7 • Green smoke grenades are CS gas, you can protect yourself with a gas mask&lt;br/&gt;
+8 • The lockers in the traders are you bank where you can store pop tabs&lt;br/&gt;
+9 • If you have a toolkit, you can disarm mines&lt;br/&gt;
+10 • There is a loadout trader in each trader area, you can save your loadout to buy later&lt;br/&gt;
+11 • As your respect gets higher, you spawn with better loadout&lt;br/&gt;
+12 • Enhanced Movement enabled, blocked in bases and traders&lt;br/&gt;
+13 • There is a roaming waste dump trader to sell unwanted vehicles to&lt;br/&gt;
+14 • No vehicle DLC? No problem - just scroll to get in&lt;br/&gt;
+15 • You receive a wages payout every 10 minutes&lt;br/&gt;
+16 • You can list unwanted items and vehicles to sell at the Marxet trader&lt;br/&gt;
+17 • Vehicles stay locked for 5 days without use, we suggest storing them in virtual garage&lt;br/&gt;
+18 • As your respect increases, so does your locker limit, type !locker in our Discord&lt;br/&gt;
+19 • If you have a mine detector that can be found in rare loot or traders, you will get notified if there are mines nearby&lt;br/&gt;
+20 • Lone wolf players can store 1 vehicle at the vehicle trader&lt;br/&gt;
+21 • Ejecting from any air vehicle deploys a parachute by pressing SPACE&lt;br/&gt;
+22 • Did you know when it's night, bambis will spawn with Night Vision Goggles&lt;br/&gt;
+23 • You can place an advanced bomb on land vehicles, the driver has to stay above 50km/h&lt;br/&gt;
+24 • You can eject stubborn crew from vehicles at missions by scrolling on the vehicle&lt;br/&gt;
+25 • You can use a custom face file up to 100kb in size&lt;br/&gt;
+26 • You can push any vehicle by scrolling on it&lt;br/&gt;
+27 • Armed vehicles can be rearmed for pop tabs at gas stations by scrolling on vehicle and selecting vehicle service, or by scrolling inside vehicle&lt;br/&gt;
+28 • You can move a handcuffed player by scrolling on them&lt;br/&gt;
+29 • When storing a vehicle with inventory or pop tabs in virtual garage, it will spawn a crate with the items in it&lt;br/&gt;
+30 • Craft a car bomb (like Speed) with 1 battery, 1 satchel charge and 1 duct tape, then plant it on vehicle&lt;br/&gt;
+31 • Killing players who are in air vehicles from the ground earns a no fly zone bonus of 5k respect&lt;br/&gt;
+32 • Killing players who are in air vehicles from an air vehicle earns a maverick bonus of 5k respect&lt;br/&gt;
+33 • To climb on buildings with enhanced movement bind custom user action 1 to a key of your choice&lt;br/&gt;
+34 • Stuck in a rock? Type !stuck in chat&lt;br/&gt;
+35 • First aid kits stop bleeding and heal you, you can craft it from 2 instadocs&lt;br/&gt;
+36 • You can remove radiation effects using an instadoc&lt;br/&gt;
+37 • You can get your details redacted (X) in scoreboard by raising a ticket on our Discord&lt;br/&gt;
+38 • You can install permanent crowsfeet mine strips in your base&lt;br/&gt;
+39 • Spectrum device and antenna can block vehicle radar sensors in a wide area for 60 secs, you can buy both at armory trader. Xm8 skill uav increases range 
+40 • You can access loadouts in your base by constructing a large metal case&lt;br/&gt;
+41 • Buy a fishing net from hardware trader, then jump in a boat and use right shift to begin fishing&lt;br/&gt;
+42 • You can hotwire vehicles using a knife&lt;br/&gt;
+43 • Type !family in chat for family details&lt;br/&gt;
+44 • You can reverse your plane, use decrease thrust or speedbrake keys when on the ground, engine needs to be on&lt;br/&gt;
+45 • To fire from the driver seat of a tank, you need to unlock Xm8 skill Mechanic level 4&lt;br/&gt;
+46 • Protection from being raided lasts 30 days from when you first joined the server, if someone on your base raids anyone, you lose that protection&lt;br/&gt;
+47 • Hit ore rocks with a sledgehammer to extract ore, with a rare chance of red and blue diamonds that you can sell&lt;br/&gt;
+48 • Level 2 locksmith perk allows you to open all doors at once on a building&lt;br/&gt;
+49 • Use the brake to reverse your plane&lt;br/&gt;
+50 • Scroll and fix countermeasures on your plane or helicopter&lt;br/&gt;
+51 • You can exchange your respect for pop tabs at the office trader&lt;br/&gt;
+52 • You can rebind the keys for VTOL hover controller in config/controls (scroll to bottom/mods) VTOL Hover Controller&lt;br/&gt;
+53 • Prestige at office trader like in Call of Duty, costs from 5 million respect, theres 10 levels with 10 badges with increasing respect, your respect is reset to 0&lt;br/&gt;
+54 • Under 20 players and armed jets a problem? Type turn off in chat to turn off jet vehicle weapons, or type turn on to enable&lt;br/&gt;
+55 • This is a pvp server, you can pvp anywhere, missions DO NOT need to be claimed in chat&lt;br/&gt;
+56 • The territory protection money you pay at office trader is base rent, it doesn't protection your base from being raided&lt;br/&gt;
+57 • Base campers bases marked on the map can be breached with 1 breaching charge for 1 hour&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+General Information:&lt;br/&gt;&lt;br/&gt;
+1 • Families and groups can have a maximum of 2 bases 1. For support jump on our Discord and create a ticket&lt;br/&gt;
+2 • Your loadout improves as your respect gets higher, type !kits on our Discord for a list&lt;br/&gt;
+3 • If you have a rope you can rappel off buildings or tow vehicles with your vehicle&lt;br/&gt;
+4 • The blackmarket traders sell high end weapons and equipment not available in regular traders&lt;br/&gt;
+5 • Scroll on a corpse to bury it&lt;br/&gt;
+6 • You earn 2000 respect x killstreak for each kill in the bonus PvP zone, if you bury the corpse, check the body for dogtags, these can be sold for 1000 pop tabs&lt;br/&gt;
+7 • Green smoke grenades are CS gas, you can protect yourself with a gas mask&lt;br/&gt;
+8 • The lockers in the traders are you bank where you can store pop tabs&lt;br/&gt;
+9 • If you have a toolkit, you can disarm mines&lt;br/&gt;
+10 • There is a loadout trader in each trader area, you can save your loadout to buy later&lt;br/&gt;
+11 • As your respect gets higher, you spawn with better loadout&lt;br/&gt;
+12 • Enhanced Movement enabled, blocked in bases and traders&lt;br/&gt;
+13 • There is a roaming waste dump trader to sell unwanted vehicles to&lt;br/&gt;
+14 • No vehicle DLC? No problem - just scroll to get in&lt;br/&gt;
+15 • You receive a wages payout every 10 minutes&lt;br/&gt;
+16 • You can list unwanted items and vehicles to sell at the Marxet trader&lt;br/&gt;
+17 • Vehicles stay locked for 5 days without use, we suggest storing them in virtual garage&lt;br/&gt;
+18 • As your respect increases, so does your locker limit, type !locker in our Discord&lt;br/&gt;
+19 • If you have a mine detector that can be found in rare loot or traders, you will get notified if there are mines nearby&lt;br/&gt;
+20 • Lone wolf players can store 1 vehicle at the vehicle trader&lt;br/&gt;
+21 • Ejecting from any air vehicle deploys a parachute by pressing SPACE&lt;br/&gt;
+22 • Did you know when it's night, bambis will spawn with Night Vision Goggles&lt;br/&gt;
+23 • You can place an advanced bomb on land vehicles, the driver has to stay above 50km/h&lt;br/&gt;
+24 • You can eject stubborn crew from vehicles at missions by scrolling on the vehicle&lt;br/&gt;
+25 • You can use a custom face file up to 100kb in size&lt;br/&gt;
+26 • You can push any vehicle by scrolling on it&lt;br/&gt;
+27 • Armed vehicles can be rearmed for pop tabs at gas stations by scrolling on vehicle and selecting vehicle service, or by scrolling inside vehicle&lt;br/&gt;
+28 • You can move a handcuffed player by scrolling on them&lt;br/&gt;
+29 • When storing a vehicle with inventory or pop tabs in virtual garage, it will spawn a crate with the items in it&lt;br/&gt;
+30 • Craft a car bomb (like Speed) with 1 battery, 1 satchel charge and 1 duct tape, then plant it on vehicle&lt;br/&gt;
+31 • Killing players who are in air vehicles from the ground earns a no fly zone bonus of 5k respect&lt;br/&gt;
+32 • Killing players who are in air vehicles from an air vehicle earns a maverick bonus of 5k respect&lt;br/&gt;
+33 • To climb on buildings with enhanced movement bind custom user action 1 to a key of your choice&lt;br/&gt;
+34 • Stuck in a rock? Type !stuck in chat&lt;br/&gt;
+35 • First aid kits stop bleeding and heal you, you can craft it from 2 instadocs&lt;br/&gt;
+36 • You can remove radiation effects using an instadoc&lt;br/&gt;
+37 • You can get your details redacted (X) in scoreboard by raising a ticket on our Discord&lt;br/&gt;
+38 • You can install permanent crowsfeet mine strips in your base&lt;br/&gt;
+39 • Spectrum device and antenna can block vehicle radar sensors in a wide area for 60 secs, you can buy both at armory trader. Xm8 skill uav increases range 
+40 • You can access loadouts in your base by constructing a large metal case&lt;br/&gt;
+41 • Buy a fishing net from hardware trader, then jump in a boat and use right shift to begin fishing&lt;br/&gt;
+42 • You can hotwire vehicles using a knife&lt;br/&gt;
+43 • Type !family in chat for family details&lt;br/&gt;
+44 • You can reverse your plane, use decrease thrust or speedbrake keys when on the ground, engine needs to be on&lt;br/&gt;
+45 • To fire from the driver seat of a tank, you need to unlock Xm8 skill Mechanic level 4&lt;br/&gt;
+46 • Protection from being raided lasts 30 days from when you first joined the server, if someone on your base raids anyone, you lose that protection&lt;br/&gt;
+47 • Hit ore rocks with a sledgehammer to extract ore, with a rare chance of red and blue diamonds that you can sell&lt;br/&gt;
+48 • Level 2 locksmith perk allows you to open all doors at once on a building&lt;br/&gt;
+49 • Use the brake to reverse your plane&lt;br/&gt;
+50 • Scroll and fix countermeasures on your plane or helicopter&lt;br/&gt;
+51 • You can exchange your respect for pop tabs at the office trader&lt;br/&gt;
+52 • You can rebind the keys for VTOL hover controller in config/controls (scroll to bottom/mods) VTOL Hover Controller&lt;br/&gt;
+53 • Prestige at office trader like in Call of Duty, costs from 5 million respect, theres 10 levels with 10 badges with increasing respect, your respect is reset to 0&lt;br/&gt;
+54 • Under 20 players and armed jets a problem? Type turn off in chat to turn off jet vehicle weapons, or type turn on to enable&lt;br/&gt;
+55 • This is a pvp server, you can pvp anywhere, missions DO NOT need to be claimed in chat&lt;br/&gt;
+56 • The territory protection money you pay at office trader is base rent, it doesn't protection your base from being raided&lt;br/&gt;
+57 • Base campers bases marked on the map can be breached with 1 breaching charge for 1 hour&lt;/font&gt;</English>
+            </Key>
+        </Container>
+        <Container name="ingame">
+            <Key ID="STR_mgt_ingame">
+                <Original>Ingame Tips</Original>
+                <English>Ingame Tips</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_tablet">
+                <Original>XM8 Tablet</Original>
+                <English>XM8 Tablet</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_tablet_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• Press 6 above the letters to open your Xm8 tablet&lt;br/&gt;
+• Unlock new skills in Xm8/Skills to give your player new abilities&lt;br/&gt;
+• There is a mine scanner app which marks mines on the map in Xm8 4. Xm8 Player Scan can scan for players online in 8g every 30 minutes&lt;br/&gt;
+• Xm8 Vehicle Scan can scan for unlocked vehicles within 1000m every 5 minutes&lt;br/&gt;
+• Craft a vehicle on land or water from Xm8&lt;br/&gt;
+• Change view distance in Xm8&lt;br/&gt;
+• You can call an air strike on laser designated target for 10% (max 10k) of your respect from Xm8&lt;br/&gt;
+• There is an Xm8 app to eject from any vehicle, or bind custom user action 15&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• Press 6 above the letters to open your Xm8 tablet&lt;br/&gt;
+• Unlock new skills in Xm8/Skills to give your player new abilities&lt;br/&gt;
+• There is a mine scanner app which marks mines on the map in Xm8 4. Xm8 Player Scan can scan for players online in 8g every 30 minutes&lt;br/&gt;
+• Xm8 Vehicle Scan can scan for unlocked vehicles within 1000m every 5 minutes&lt;br/&gt;
+• Craft a vehicle on land or water from Xm8&lt;br/&gt;
+• Change view distance in Xm8&lt;br/&gt;
+• You can call an air strike on laser designated target for 10% (max 10k) of your respect from Xm8&lt;br/&gt;
+• There is an Xm8 app to eject from any vehicle, or bind custom user action 15&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_medical">
+                <Original>Medical</Original>
+                <English>Medical</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_medical_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• You can revive players by scrolling and selecting perform CPR&lt;br/&gt;
+• If you have an instadoc you can heal another player by scrolling on them&lt;br/&gt;
+• Super Human perk gives you full health, food and drink when being revived, it also gives the reviver double respect&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• You can revive players by scrolling and selecting perform CPR&lt;br/&gt;
+• If you have an instadoc you can heal another player by scrolling on them&lt;br/&gt;
+• Super Human perk gives you full health, food and drink when being revived, it also gives the reviver double respect&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_loot">
+                <Original>Looting</Original>
+                <English>Looting</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_loot_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• You can load some crates into some vehicles - scroll on vehicle select crate storage&lt;br/&gt;
+• Thermal scanners for scanning codelocks spawn in industrial areas&lt;br/&gt;
+• Salvage wrecked vehicles for loot by scrolling on them, this will also untow any towed vehicles and unload crates&lt;br/&gt;
+• Rare weapons will spawn in radiation zone at the highest spawn rate, get your gas mask and get looting&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• You can load some crates into some vehicles - scroll on vehicle select crate storage&lt;br/&gt;
+• Thermal scanners for scanning codelocks spawn in industrial areas&lt;br/&gt;
+• Salvage wrecked vehicles for loot by scrolling on them, this will also untow any towed vehicles and unload crates&lt;br/&gt;
+• Rare weapons will spawn in radiation zone at the highest spawn rate, get your gas mask and get looting&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_raid">
+                <Original>Raiding</Original>
+                <English>Raiding</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_raid_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• Grinding needs a grinder and batteries&lt;br/&gt;
+• Anything with a lock can be ground using a grinder and batteries&lt;br/&gt;
+• Use a laptop and 2 power cords to hack a safe on foot or from a mozzie&lt;br/&gt;
+• You can hack VG at bases using a laptop and power cords after flag is stolen&lt;br/&gt;
+• You can destroy enemy CCTV cameras with a metal breaching charge&lt;br/&gt;
+• Go on discord and type !breaching for a list of objects you can breach/destroy&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• Grinding needs a grinder and batteries&lt;br/&gt;
+• Anything with a lock can be ground using a grinder and batteries&lt;br/&gt;
+• Use a laptop and 2 power cords to hack a safe on foot or from a mozzie&lt;br/&gt;
+• You can hack VG at bases using a laptop and power cords after flag is stolen&lt;br/&gt;
+• You can destroy enemy CCTV cameras with a metal breaching charge&lt;br/&gt;
+• Go on discord and type !breaching for a list of objects you can breach/destroy&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_territory">
+                <Original>Territory/Building</Original>
+                <English>Territory/Building</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_territory_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• Virtual Garage can be accessed from your territory flag or Xm8&lt;br/&gt;
+• Yes, it's ok to build on castles/houses (Not inside objects)&lt;br/&gt;
+• You can construct sandbag and hedgehog defences anywhere, you dont need a flag&lt;br/&gt;
+• You can abandon your base by scrolling on your flag and selecting abandon territory, you will get construction items returned in a crate&lt;br/&gt;
+• You can paint vehicles and uniforms within any territory&lt;br/&gt;
+• You can spawn at your base unless you got killed there or it's being raided&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• Virtual Garage can be accessed from your territory flag or Xm8&lt;br/&gt;
+• Yes, it's ok to build on castles/houses (Not inside objects)&lt;br/&gt;
+• You can construct sandbag and hedgehog defences anywhere, you dont need a flag&lt;br/&gt;
+• You can abandon your base by scrolling on your flag and selecting abandon territory, you will get construction items returned in a crate&lt;br/&gt;
+• You can paint vehicles and uniforms within any territory&lt;br/&gt;
+• You can spawn at your base unless you got killed there or it's being raided&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_cleanup">
+                <Original>Cleanup Routines</Original>
+                <English>Cleanup Routines</English>
+            </Key>
+            <Key ID="STR_mgt_ingame_cleanup_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• Bases despawn after 8 days if you dont pay the fee at office trader&lt;br/&gt;
+• Stolen flags, your base will despawn after 2 days if not restored&lt;br/&gt;
+• Safes outside bases, code changes to 0000 after 7 days&lt;br/&gt;
+• Storage items outside bases will despawn if you do not use them for 10 days&lt;br/&gt;
+• Vehicles will despawn after 5 days if you dont use them&lt;br/&gt;
+• Dead bodies will despawn after 45 minutes unless you got Arma'd&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+• Bases despawn after 8 days if you dont pay the fee at office trader&lt;br/&gt;
+• Stolen flags, your base will despawn after 2 days if not restored&lt;br/&gt;
+• Safes outside bases, code changes to 0000 after 7 days&lt;br/&gt;
+• Storage items outside bases will despawn if you do not use them for 10 days&lt;br/&gt;
+• Vehicles will despawn after 5 days if you dont use them&lt;br/&gt;
+• Dead bodies will despawn after 45 minutes unless you got Arma'd&lt;/font&gt;</English>
+            </Key>
+        </Container>
+        <Container name="controls">
+            <Key ID="STR_mgt_controls">
+                <Original>Controls</Original>
+                <English>Controls</English>
+            </Key>
+            <Key ID="STR_mgt_controls_exile">
+                <Original>EXILE Keybinds</Original>
+                <English>EXILE Keybinds</English>
+            </Key>
+            <Key ID="STR_mgt_controls_exile_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;1&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Primary Weapon&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;2&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Pistol&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;3&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Sec. Weapon&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;4&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Holster your current weapon 5 = Earplugs&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;6&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= XM8 Tablet&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;7&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Earplugs Extra Quiet&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;8&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Toggle Environment Sounds&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;0&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Autorun&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;1&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Primary Weapon&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;2&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Pistol&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;3&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Sec. Weapon&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;4&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Holster your current weapon 5 = Earplugs&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;6&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= XM8 Tablet&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;7&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Earplugs Extra Quiet&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;8&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Toggle Environment Sounds&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;0&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Autorun&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_controls_keymenu">
+                <Original>Keybinds Menu</Original>
+                <English>Keybinds Menu</English>
+            </Key>
+            <Key ID="STR_mgt_controls_keymenu_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;Select a Key&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Keybinds Menu&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;Select a Key&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Private Chat&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;U&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Lock/Unlock&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;Select a Key&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Place 3D Group Marker&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;Select a Key&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Clear Map Markers (Waypoints)&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;Select a Key&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Keybinds Menu&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;Select a Key&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Private Chat&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;U&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Lock/Unlock&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;Select a Key&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Place 3D Group Marker&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;Select a Key&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Clear Map Markers (Waypoints)&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_controls_costum">
+                <Original>Costum Controls</Original>
+                <English>Costum Controls</English>
+            </Key>
+            <Key ID="STR_mgt_controls_costum_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 1&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Enhanced movement (Climb/Jump)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 2&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= 3D Group marker&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 3&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Delete waypoint markers&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 5&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Drop all inventory&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 6&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Block UAV sensors with Spectrum device and antenna&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 7&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Disable and enable Extra quiet earplugs&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 8&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Disable and enable Environmental sounds&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 9&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Get pin code on items in your base&lt;/font&gt;&lt;br/&gt;&lt;br/&gt; 
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 13&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Decrease Viewdistance - 500m&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 14&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Increase Viewdistance + 500m&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 15&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Eject from Any Vehicle&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 16&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Pack vehicle [craft]&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 17&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Open vehicle crate storage inside and outside vehicle&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 18&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Underwater Looting&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 19&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= 8G Network toggle (On/Off)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 20&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Use healing item&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 1&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Enhanced movement (Climb/Jump)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 2&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= 3D Group marker&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 3&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Delete waypoint markers&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 5&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Drop all inventory&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 6&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Block UAV sensors with Spectrum device and antenna&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 7&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Disable and enable Extra quiet earplugs&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 8&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Disable and enable Environmental sounds&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 9&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Get pin code on items in your base&lt;/font&gt;&lt;br/&gt;&lt;br/&gt; 
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 13&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Decrease Viewdistance - 500m&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 14&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Increase Viewdistance + 500m&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 15&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Eject from Any Vehicle&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 16&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Pack vehicle [craft]&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 17&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Open vehicle crate storage inside and outside vehicle&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 18&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Underwater Looting&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 19&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= 8G Network toggle (On/Off)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;USER ACTION 20&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Use healing item&lt;/font&gt;</English>
+            </Key>
+        </Container>
+        <Container name="commands">
+            <Key ID="STR_mgt_commands">
+                <Original>Commands</Original>
+                <English>Commands</English>
+            </Key>
+            <Key ID="STR_mgt_commands_chat">
+                <Original>Chat Commands</Original>
+                <English>Chat Commands</English>
+            </Key>
+            <Key ID="STR_mgt_commands_chat_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!poo&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Sometimes leaves a present for you)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!pee&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!worship&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!surprise&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Dexter Meme)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!rickroll&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!fuck&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Heff)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!loof&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!fixme&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (clears any painting on your uniform or backpack)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!finger&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!dance&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!dancing&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!dab&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!surrender&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!stop&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Stops any animation you are doing)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!joined&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Shows the date you joined server yyyy/mm/dd)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!stuck&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Moves you out of rocks if you are stuck)&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!poo&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Sometimes leaves a present for you)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!pee&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!worship&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!surprise&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Dexter Meme)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!rickroll&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!fuck&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Heff)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!loof&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!fixme&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (clears any painting on your uniform or backpack)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!finger&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!dance&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!dancing&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!dab&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!surrender&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!stop&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Stops any animation you are doing)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!joined&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Shows the date you joined server yyyy/mm/dd)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;!stuck&lt;/font&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt; (Moves you out of rocks if you are stuck)&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_commands_vote">
+                <Original>Vote Commands</Original>
+                <English>Vote Commands</English>
+            </Key>
+            <Key ID="STR_mgt_commands_vote_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;Simple Write these Commands in the Chat to activate them!&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;!Turn Off&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Deactivates Jet Weapons (only works if there are less then 20 Players on the Server!)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;!Day/!Night&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Changes time ingame&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;Simple Write these Commands in the Chat to activate them!&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;!Turn Off&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Deactivates Jet Weapons (only works if there are less then 20 Players on the Server!)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;!Day/!Night&lt;/font&gt; &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;= Changes time ingame&lt;/font&gt;</English>
+            </Key>
+        </Container>
+        <Container name="punishment">
+            <Key ID="STR_mgt_punishments">
+                <Original>Punishments</Original>
+                <English>Punishments</English>
+            </Key>
+            <Key ID="STR_mgt_punishments_basecamp">
+                <Original>Basecamping</Original>
+                <English>Basecamping</English>
+            </Key>
+            <Key ID="STR_mgt_punishments_basecamp_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+It's a base camping kill and killers base is vulnerable to 1 charge breaching for 1 hour unless:&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+1 • Victim has raided a base within the last 30 minutes, or&lt;br/&gt;
+2 • Victim is in an armed air vehicle, or&lt;br/&gt;
+3 • Victim has killed in last 10 minutes, or&lt;br/&gt;
+4 • Victim is in a base, or&lt;br/&gt;
+5 • Victim has fired a weapon in the last 30 seconds, or&lt;br/&gt;
+6 • Villers base is in raid mode, or&lt;br/&gt;
+7 • There is a mission/capture point within 300m of killers base&lt;br/&gt;&lt;br/&gt;
+Armed land vehicles can be fired if they're no higher than 10m off the ground and have at least 30m of clear air above them&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+It's a base camping kill and killers base is vulnerable to 1 charge breaching for 1 hour unless:&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+1 • Victim has raided a base within the last 30 minutes, or&lt;br/&gt;
+2 • Victim is in an armed air vehicle, or&lt;br/&gt;
+3 • Victim has killed in last 10 minutes, or&lt;br/&gt;
+4 • Victim is in a base, or&lt;br/&gt;
+5 • Victim has fired a weapon in the last 30 seconds, or&lt;br/&gt;
+6 • Villers base is in raid mode, or&lt;br/&gt;
+7 • There is a mission/capture point within 300m of killers base&lt;br/&gt;&lt;br/&gt;
+Armed land vehicles can be fired if they're no higher than 10m off the ground and have at least 30m of clear air above them&lt;/font&gt;</English>
+            </Key>
+            <Key ID="STR_mgt_punishments_air">
+                <Original>Air to Ground engagemant</Original>
+                <English>Air to Ground engagemant</English>
+            </Key>
+            <Key ID="STR_mgt_punishments_air_text">
+                <Original>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+Legitimate infantry targets for air support to engage: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+1 • Player in a crafted vehicle towing another vehicle&lt;br/&gt;
+2 • Infantry that has shot at an air vehicle within the last 10 minutes&lt;br/&gt;
+3 • Infantry that has got out of a non-crafted vehicle within 3 minutes (except Mozzie or AH6 crafted)&lt;br/&gt;
+4 • Infantry that is carrying a handheld AA launcher&lt;br/&gt;
+5 • Infantry that is in a base&lt;br/&gt;
+6 • Infantry anywhere that has killed someone within the last 10 minutes&lt;br/&gt;
+7 • Infantry that has completed a raiding action within the last 30 minutes&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
+Legitimate infantry targets for air support to engage: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
+1 • Player in a crafted vehicle towing another vehicle&lt;br/&gt;
+2 • Infantry that has shot at an air vehicle within the last 10 minutes&lt;br/&gt;
+3 • Infantry that has got out of a non-crafted vehicle within 3 minutes (except Mozzie or AH6 crafted)&lt;br/&gt;
+4 • Infantry that is carrying a handheld AA launcher&lt;br/&gt;
+5 • Infantry that is in a base&lt;br/&gt;
+6 • Infantry anywhere that has killed someone within the last 10 minutes&lt;br/&gt;
+7 • Infantry that has completed a raiding action within the last 30 minutes&lt;/font&gt;</English>
+            </Key>
+        </Container>
+        <Container name="support">
+            <Key ID="STR_mgt_support">
+                <Original>Support</Original>
+                <English>Support</English>
+            </Key>
+            <Key ID="STR_mgt_support_text">
+                <Original>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;For any kind of Support/Questions/ect. please join the Discord: discord.gg/mgt &lt;br/&gt;&lt;br/&gt;&lt;/font&gt;</Original>
+                <English>&lt;br/&gt;&lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;For any kind of Support/Questions/ect. please join the Discord: discord.gg/mgt &lt;br/&gt;&lt;br/&gt;&lt;/font&gt;</English>
+            </Key>
+        </Container>
+    </Package>
+</Project>
