@@ -2403,7 +2403,7 @@ Genel Bilgiler:&lt;br/&gt;&lt;br/&gt;
     <English>Vote Commands</English>
     <Czech>Hlasovací příkazy</Czech>
     <French>Commandes de vote</French>
-    <German>Abstimmungsbefehle</German>
+    <German>Vote Befehle</German>
     <Polish>Komendy głosowania</Polish>
     <Portuguese>Comandos de Voto</Portuguese>
     <Russian>Команды голосования</Russian>
@@ -2620,7 +2620,8 @@ Legitimate infantry targets for air support to engage: &lt;/font&gt;&lt;br/&gt;&
 4 • Infantry that is carrying a handheld AA launcher&lt;br/&gt;
 5 • Infantry that is in a base&lt;br/&gt;
 6 • Infantry anywhere that has killed someone within the last 10 minutes&lt;br/&gt;
-7 • Infantry that has completed a raiding action within the last 30 minutes&lt;/font&gt;</Original>
+7 • Infantry that has completed a raiding action within the last 30 minutes&lt;br/&gt;&lt;br/&gt;
+Punishment expires after 30 Minutes, or after death (suicide and teamkilling does not count!)&lt;/font&gt;</Original>
 <English>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
 Legitimate infantry targets for air support to engage: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
@@ -2630,17 +2631,19 @@ Legitimate infantry targets for air support to engage: &lt;/font&gt;&lt;br/&gt;&
 4 • Infantry that is carrying a handheld AA launcher&lt;br/&gt;
 5 • Infantry that is in a base&lt;br/&gt;
 6 • Infantry anywhere that has killed someone within the last 10 minutes&lt;br/&gt;
-7 • Infantry that has completed a raiding action within the last 30 minutes&lt;/font&gt;</English>
+7 • Infantry that has completed a raiding action within the last 30 minutes&lt;br/&gt;&lt;br/&gt;
+Punishment expires after 30 Minutes, or after death (suicide and teamkilling does not count!)&lt;/font&gt;</English>
 <Czech>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
 Legitimní cíle pěchoty, na které může letecká podpora zaútočit: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
 1 - Hráč ve vyrobeném vozidle táhne jiné vozidlo&lt;br/&gt;
 2 - Pěchota, která během posledních 10 minut střílela na vzdušné vozidlo&lt;br/&gt;
-3 - Pěchota, která během 3 minut vystoupila z nevyrobeného vozidla (kromě vyrobeného Mozzie nebo AH6)&lt;br/&gt;
+3 - Pěchota, která během 3 minut vystoupila z nevyrobeného vozidla (kromě Mozzie nebo AH6 vyrobeného craftem)&lt;br/&gt;
 4 - Pěchota, která nese ruční odpalovací zařízení AA&lt;br/&gt;
 5 - Pěchota, která je na základně&lt;br/&gt;
 6 - Pěchota kdekoli, která někoho zabila během posledních 10 minut&lt;br/&gt;
-7 - Pěchota, která během posledních 30 minut dokončila nájezdovou akci&lt;/font&gt;</Czech>
+7 - Pěchota, která během posledních 30 minut dokončila přepadovou akci&lt;br/&gt;&lt;br/&gt;
+Trest vyprší po 30 minutách nebo po smrti (sebevražda a teamkilling se nepočítá!)&lt;/font&gt;</Czech>
 <French>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt ;
 Cibles légitimes de l'infanterie à engager par l'appui aérien : &lt;/font&gt;&lt;br/&gt;&lt;br/&gt ;
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt ;
@@ -2649,8 +2652,9 @@ Cibles légitimes de l'infanterie à engager par l'appui aérien : &lt;/font&gt;
 3 - Infanterie qui est sortie d'un véhicule non artisanal dans les 3 dernières minutes (sauf Mozzie ou AH6 artisanal)&lt;br/&gt ;
 4 - L'infanterie qui porte un lanceur AA portatif&lt;br/&gt ;
 5 - L'infanterie qui se trouve dans une base&lt;br/&gt ;
-6 - L'infanterie qui a tué quelqu'un au cours des 10 dernières minutes&lt;br/&gt ;
-7 - Infanterie ayant effectué un raid dans les 30 dernières minutes&lt;/font&gt ;</French>
+6 - Infanterie n'importe où qui a tué quelqu'un dans les 10 dernières minutes&lt;br/&gt ;
+7 - Infanterie ayant effectué un raid dans les 30 dernières minutes&lt;br/&gt;&lt;br/&gt ;
+La punition expire après 30 minutes, ou après la mort (le suicide et le teamkilling ne comptent pas !)&lt;/font&gt ;</French>
 <German>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
 Legitime Infanterieziele, die von der Luftunterstützung angegriffen werden können: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
@@ -2658,9 +2662,10 @@ Legitime Infanterieziele, die von der Luftunterstützung angegriffen werden kön
 2 - Infanterie, die innerhalb der letzten 10 Minuten auf ein Luftfahrzeug geschossen hat&lt;br/&gt;
 3 - Infanterie, die innerhalb von 3 Minuten aus einem nicht hergestellten Fahrzeug ausgestiegen ist (außer Mozzie oder AH6 crafted)&lt;br/&gt;
 4 - Infanterie, die einen tragbaren AA-Werfer mit sich führt&lt;br/&gt;
-5 - Infanterie, die sich in einer Basis befindet&lt;br/&gt;
+5 - Infanterie, die sich in einem Stützpunkt befindet&lt;br/&gt;
 6 - Infanterie, die irgendwo jemanden innerhalb der letzten 10 Minuten getötet hat&lt;br/&gt;;
-7 - Infanterie, die innerhalb der letzten 30 Minuten eine Überfallaktion abgeschlossen hat&lt;/font&gt;;</German>
+7 - Infanterie, die innerhalb der letzten 30 Minuten eine Raubzug-Aktion durchgeführt hat&lt;br/&gt;&lt;br/&gt;
+Die Strafe läuft nach 30 Minuten oder nach dem Tod ab (Selbstmord und Teamkilling zählen nicht!)&lt;/font&gt;</German>
 <Polish>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
 Uzasadnione cele piechoty dla wsparcia powietrznego: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
@@ -2670,7 +2675,8 @@ Uzasadnione cele piechoty dla wsparcia powietrznego: &lt;/font&gt;&lt;br/&gt;&lt
 4 - Piechota nosząca ręczną wyrzutnię AA&lt;br/&gt;
 5 - Piechota znajdująca się w bazie&lt;br/&gt;
 6 - Piechota w dowolnym miejscu, która zabiła kogoś w ciągu ostatnich 10 minut&lt;br/&gt;
-7 - Piechota, która wykonała akcję najazdu w ciągu ostatnich 30 minut&lt;/font&gt;</Polish>
+7 - Piechota, która wykonała akcję najazdu w ciągu ostatnich 30 minut&lt;br/&gt;&lt;br/&gt;
+Kara wygasa po 30 minutach lub po śmierci (samobójstwa i zabójstwa drużynowe się nie liczą!)&lt;/font&gt;</Polish>
 <Portuguese>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
 Alvos de infantaria legítimos para o apoio aéreo: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
@@ -2680,17 +2686,19 @@ Alvos de infantaria legítimos para o apoio aéreo: &lt;/font&gt;&lt;br/&gt;&lt;
 4 - Infantaria que esteja a transportar um lançador AA de mão&lt;br/&gt;
 5 - Infantaria que esteja numa base&lt;br/&gt;;
 6 - Infantaria em qualquer lugar que tenha matado alguém nos últimos 10 minutos&lt;br/&gt;;
-7 - Infantaria que tenha completado uma ação de ataque nos últimos 30 minutos&lt;/font&gt;</Portuguese>
+7 - Infantaria que tenha completado uma ação de ataque nos últimos 30 minutos&lt;br/&gt;&lt;br/&gt;
+O castigo expira após 30 minutos, ou após a morte (suicídio e teamkilling não contam!)&lt;/font&gt;</Portuguese>
 <Russian>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
 Легитимные цели пехоты для воздушной поддержки: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
 1 - Игрок на созданном транспортном средстве буксирует другое транспортное средство&lt;br/&gt;
-2 - Пехота, которая стреляла по воздушному транспортному средству в течение последних 10 минут&lt;br/&gt;;
+2 - Пехота, которая стреляла в воздушное транспортное средство в течение последних 10 минут&lt;br/&gt;;
 3 - Пехота, вышедшая из нерукотворного транспортного средства в течение 3 минут (кроме Mozzie или AH6)&lt;br/&gt;
-4 - Пехота, имеющая при себе ручную пусковую установку AA&lt;br/&gt;;
+4 - Пехота, имеющая при себе ручную пусковую установку AA&lt;br/&gt;
 5 - Пехота, находящаяся на базе&lt;br/&gt;;
 6 - Пехота, которая убила кого-либо в течение последних 10 минут&lt;br/&gt;;
-7 - Пехота, совершившая рейд в течение последних 30 минут&lt;/font&gt;</Russian>
+7 - Пехота, совершившая рейдовое действие в течение последних 30 минут&lt;br/&gt;&lt;br/&gt;
+Наказание истекает через 30 минут или после смерти (самоубийства и убийства в команде не считаются!)&lt;/font&gt;</Russian>
 <Spanish>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
 Objetivos legítimos de infantería para que el apoyo aéreo los ataque: &lt;/font&gt;&lt;br/&gt
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
@@ -2700,7 +2708,8 @@ Objetivos legítimos de infantería para que el apoyo aéreo los ataque: &lt;/fo
 4 - Infantería que lleva un lanzador AA de mano&lt;br/&gt;
 5 - Infantería que esté en una base&lt;br/&gt;
 6 - Infantería en cualquier lugar que haya matado a alguien en los últimos 10 minutos&lt;br/&gt;
-7 - Infantería que ha completado una acción de asalto en los últimos 30 minutos&lt;/font&gt;</Spanish>
+7 - Infantería que ha completado una acción de asalto en los últimos 30 minutos&lt;br/&gt;;
+El castigo expira después de 30 Minutos, o después de la muerte (¡suicidio y teamkilling no cuentan!)&lt;/font&gt;</Spanish>
 <Chinese>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt；
 供空中支援打击的合法步兵目标：&lt;/font&gt;&lt;br/&gt;&lt;br/&gt；
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt；
@@ -2708,9 +2717,10 @@ Objetivos legítimos de infantería para que el apoyo aéreo los ataque: &lt;/fo
 2 - 在过去 10 分钟内向空中飞行器射击的步兵&lt;br/&gt；
 3 - 在 3 分钟内从非战斗飞行器中脱身的步兵（Mozzie 或 AH6 战斗飞行器除外）&lt;br/&gt；
 4 - 携带手持式 AA 发射器的步兵&lt;br/&gt；
-5 - 在基地内的步兵&lt;br/&gt；
+5 - 基地内的步兵&lt;br/&gt；
 6 - 在过去 10 分钟内杀死过某人的任何地方的步兵&lt;br/&gt；
-7 - 在过去 30 分钟内完成一次突袭行动的步兵&lt;/font&gt；</Chinese>
+7 - 在过去 30 分钟内完成突袭行动的步兵&lt;br/&gt;&lt;br/&gt；
+惩罚在 30 分钟后失效，或在死亡后失效（自杀和团队杀戮不算！）&lt;/font&gt；</Chinese>
 <Turkish>&lt;br/&gt;&lt;font color='#FF0000' size='12' face='RobotoCondensed'&gt;
 Hava desteği için meşru piyade hedefleri: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;font color='#FFFF00' size='12' face='RobotoCondensed'&gt;
@@ -2720,7 +2730,8 @@ Hava desteği için meşru piyade hedefleri: &lt;/font&gt;&lt;br/&gt;&lt;br/&gt;
 4 - Elde taşınabilir bir AA fırlatıcı taşıyan piyade&lt;br/&gt;
 5 - Bir üssün içinde bulunan piyade&lt;br/&gt;
 6 - Son 10 dakika içinde herhangi bir yerde birini öldürmüş piyade&lt;br/&gt;
-7 - Son 30 dakika içinde bir baskın eylemini tamamlamış piyade&lt;/font&gt;</Turkish>
+7 - Son 30 dakika içinde bir baskın eylemini tamamlamış piyade&lt;br/&gt;&lt;br/&gt;
+Ceza 30 Dakika sonra veya ölümden sonra sona erer (intihar ve takım öldürme sayılmaz!)&lt;/font&gt;</Turkish>
 </Key>
 </Container>
 <Container name="support">
